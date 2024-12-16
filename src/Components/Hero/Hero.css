@@ -1,0 +1,68 @@
+.hero {
+    height: 100dvh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero .slider-images {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.hero .slider-images img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.hero .slider-bar {
+    height: 20px;
+    width: auto;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+
+.hero .slider-bar .circle {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 0;
+    background-color: white;
+    border-radius: 50%;
+    scale: 0.9;
+}
+
+.hero .previous {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hero .next {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
